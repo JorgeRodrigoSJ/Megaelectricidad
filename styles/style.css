@@ -1,0 +1,254 @@
+/* RESET DE CSS*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*Navbar*/
+
+body {
+  background-color: #ffffff;
+}
+nav{
+  background-color: #f0f1f1;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+p {
+  text-align: center;
+}
+
+.banner {
+  background: url("/img/ullum-1024x572-1.jpg") fixed center/cover;
+  height: 700px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .banner__info {
+  padding: 0.3em;
+  position: absolute;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  color: black;
+  margin: auto;
+  border: 13px solid #f2ad43;
+  opacity: 0.7;
+  background-color: #f6eee0;
+}
+
+.banner .banner__title {
+  line-height: 1.5;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin: auto;
+}
+
+.banner .banner__p {
+  line-height: 2;
+  font-size: 1.5em;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.cv {
+  background: url(../img/icon-cv.png) center left no-repeat;
+  background-color:#d1c7b7;
+  position: absolute;
+  right: 25px;
+  color: #af1c1c;
+  font-weight: 700;
+  width: 180px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* primer section*/
+.section {
+  margin-top: 40px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* segunda section*/
+
+.informacionimportante {
+  margin-top: 40px;
+}
+
+/* tercera section
+
+arreglar las clases con sass*/
+
+#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
+  max-width: 1920px;
+  overflow: hidden
+}
+.portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box {
+  position: relative;
+  display: block;
+}
+.portfolio-box .portfolio-box-caption,  .container-sm .portfolio-box .portfolio-box-caption,  .container-md .portfolio-box .portfolio-box-caption,  .container-lg .portfolio-box .portfolio-box-caption,  .container-xl .portfolio-box .portfolio-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 1;
+  color: #fff;
+  background: rgba(0, 0, 0,0);
+  transition: all 0.25s ease;
+  text-align: center;
+  padding:50px;
+}
+.portfolio-box .portfolio-box-caption .project-category,  .container-sm .portfolio-box .portfolio-box-caption .project-category,  .container-md .portfolio-box .portfolio-box-caption .project-category,  .container-lg .portfolio-box .portfolio-box-caption .project-category,  .container-xl .portfolio-box .portfolio-box-caption .project-category {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+
+}
+.portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name,  .container-md .portfolio-box .portfolio-box-caption .project-name,  .container-lg .portfolio-box .portfolio-box-caption .project-name,  .container-xl .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 1.2rem;
+}
+.portfolio-box:hover .portfolio-box-caption,  .container-sm .portfolio-box:hover .portfolio-box-caption,  .container-md .portfolio-box:hover .portfolio-box-caption,  .container-lg .portfolio-box:hover .portfolio-box-caption,  .container-xl .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
+.portfolio-box .portfolio-box-caption h5{
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.portfolio-box .portfolio-box-caption p{
+  color:white;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.portfolio-box .portfolio-box-caption .btn{
+  border:solid 1px white;
+  color: white;
+  border-radius: 0;
+  font-size: 16px;
+
+}
+.portfolio-box:hover .btn{
+  background: white;
+  color:black;
+}
+.portfolio-box video{
+  vertical-align: middle;
+}
+.portfolio-box.portfolio-full{
+  height: 400px;
+}
+.portfolio-box.portfolio-half{
+  height: 480px;
+}
+.portfolio-box{
+  background-size: cover;
+}
+
+/* footer */
+
+footer{
+  background: #5b6163;
+  margin-top: 30px;
+}
+footer hr{
+  color: white;
+  background: white;
+}
+footer p{
+  color:white;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.5;
+}
+.contact-data{
+  list-style: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+.contact-data li{
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+.contact-data li:last-child{
+  margin-bottom: 0;
+}
+.row{
+  display: flex;
+  justify-content: center;
+}
+.address{
+  background: url(../img/icon-ubicacion.png) center left no-repeat;
+}
+.phone{
+  background: url(../img/icon-telefono.png) center left no-repeat;
+}
+.email{
+  background: url(../img/icon-email.png) center left no-repeat;
+}
+
+.social-network{
+  list-style: none;
+  color: rgb(213, 72, 72);
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+}
+nav .social-network li{
+  margin:0 15px;
+ 
+}
+.social-network li{
+ margin:0 15px;
+ padding-left: 50px;
+}
+nav .social-network a{
+  color:white;
+  height:50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  text-indent: -9000px;
+  overflow: hidden;
+}
+
+
+.linkedin{
+  background: url(../img/icon-linkedin.png) center left  no-repeat;
+}
+.youtube{
+  background: url(../img/icon-youtube.png) center left  no-repeat;
+}
+.mail{
+  background: url(../img/icon-email.png) center left  no-repeat;
+}
