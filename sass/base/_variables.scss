@@ -1,0 +1,65 @@
+/*$negro:black;
+$colorhover:#cd2314;
+$colorbase:#f6eee0;
+$colorheader:#A45C40;*/
+
+/*colores nuevos*/
+$colorhover:#e41926;
+$colorhovernav:#9b5f35;
+$colorbase:#d5d1cf;
+$colorheader:#7e6762;
+$negro:black;
+$colorbotonnav:#e1e0de;
+$colorhero:#eaa353;
+$colorformcontactos:#9b5f35;
+$colorfieldset:rgb(192, 184, 184);
+$colorfacebook:#1877f2;
+
+%formatoh1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 50px;
+    color:$negro;
+    font-weight: bold; 
+    text-align: justify;
+    letter-spacing: 2px;
+  }
+
+%formato-img {
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px black;
+  }
+
+%formato-p {
+  padding: 20px;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+%iframe {
+  height: 315px;
+  width: 560px;
+}
+
+@mixin sizes ($margin, $padding){
+  margin: $margin;
+  padding: $padding;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin grid-template-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+@mixin anchoyalto ($width, $height){
+  width: $width;
+  height: $height;
+}
