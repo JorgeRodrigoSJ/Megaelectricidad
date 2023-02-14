@@ -65,22 +65,21 @@ p {
 
 .cv {
   background: url(../img/icon-cv.png) center left no-repeat;
-  background-color:#d1c7b7;
   position: absolute;
   right: 25px;
   color: #af1c1c;
-  width: 180px;
+  width: 250px;
   display: inline-block;
   text-align: center;
   border-radius: 0.25rem;
 }
-
+/* le cambien de custom a success para probar los botones de bootstrap
 a.btn.btn-custom {
   border-color: #d1c7b7;
   color: #0e0e0e;
   font-weight: 700;
   width: 180px;
-}
+}*/
 
 /* primer section*/
 .section {
