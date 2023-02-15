@@ -11,7 +11,10 @@ nav{
   background-color: #5b6163;
   font-weight: 700;
 }
-
+.nav-link{
+  color: #f2ad43;
+  font-size: 1.2rem;
+}
 h1 {
   text-align: center;
   font-size: 1.5rem;
@@ -19,6 +22,7 @@ h1 {
   font-weight: bold;
   letter-spacing: 2px;
 }
+
 
 p {
   text-align: center;
@@ -73,13 +77,6 @@ p {
   text-align: center;
   border-radius: 0.25rem;
 }
-/* le cambien de custom a success para probar los botones de bootstrap
-a.btn.btn-custom {
-  border-color: #d1c7b7;
-  color: #0e0e0e;
-  font-weight: 700;
-  width: 180px;
-}*/
 
 /* primer section*/
 .section {
