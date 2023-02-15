@@ -253,3 +253,38 @@ nav .social-network a{
 .mail{
   background: url(../img/icon-email.png) center left  no-repeat;
 }
+
+/*servicios*/
+
+.page-int p {
+  font-size: 23px;
+  line-height: 32px;
+  color: #414042;
+}
+.title-int {
+  position: relative;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 36px;
+  color: #f9ae3b;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+.box-service {
+  display: block;
+  border: solid 1px #d1d3d4;
+  height: 209px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #045674;
+  font-size: 25px;
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
+}
